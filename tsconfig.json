@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./lib",
+    "skipLibCheck": true,
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "dist", "node_modules", "**/*.spec.ts", "tests"
+  ]
+}
