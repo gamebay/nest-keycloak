@@ -18,6 +18,7 @@ jobs:
           node-version: lts/hydrogen
 
       - run: npm ci
+      - run: npm run build
 
       - run: npx semantic-release
         env:
