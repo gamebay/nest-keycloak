@@ -1,19 +1,19 @@
 {
   "name": "@gamebay/nest-keycloak",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "Keycloak provider for Nest.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
     "lint": "eslint 'lib/**/*.ts' --fix",
-    "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gamebay/nest-keycloak.git"
+    "url": "https://github.com/gamebay/nest-keycloak.git"
   },
   "author": "",
   "license": "MIT",
@@ -38,8 +38,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.7.1",
-    "release-it": "^15.5.0",
     "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.5",
     "typescript": "4.8.4"
   }
 }
