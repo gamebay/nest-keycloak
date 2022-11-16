@@ -1,6 +1,6 @@
 {
   "name": "@gamebay/nest-keycloak",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Keycloak provider for Nest.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
