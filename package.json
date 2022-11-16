@@ -7,7 +7,6 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "lint": "eslint 'lib/**/*.ts' --fix",
-    "publish": "npm publish --access public",
     "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc --watch"
